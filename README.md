@@ -106,7 +106,7 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>Damage</td>
+                            <td nowrap>Attack</td>
                             <td><input id='atk' value='0'></td>
                         </tr>
                         <tr>
@@ -127,12 +127,12 @@
                         </tr>
                         <tr>
                             <td nowrap colspan="2" style="text-align: center;">
-                                <label for='swordl1'>검시타</label><input
+                                <label for='swordl1'>Sword Lann</label><input
                                     style='width: auto; vertical-align: middle; margin-left: 3px;' type="checkbox"
                                     id="swordl1"
                                     onchange="if(this.checked)document.querySelector('#spearl1').checked = false;">
                                 &nbsp;&nbsp;
-                                <label for='spearl1'>창시타</label><input
+                                <label for='spearl1'>Spear Lann</label><input
                                     style='width: auto; vertical-align: middle; margin-left: 3px;' type="checkbox"
                                     id="spearl1"
                                     onchange="if(this.checked)document.querySelector('#swordl1').checked = false;">
@@ -151,14 +151,14 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>유효 전투력 (크리 미포함)</td>
+                            <td nowrap>Effective Combat power (without Crit)</td>
                             <td nowrap><input id='nocritdmg'><input
                                     style='width: auto; vertical-align: middle; margin-left: 7px;' type="checkbox"
                                     id="compnocrit"
                                     onchange="document.querySelector('#compcrit').checked = !(this.checked);"></td>
                         </tr>
                         <tr>
-                            <td nowrap>유효 전투력 (크리 포함)</td>
+                            <td nowrap>Effective Combat Power (including Crit)</td>
                             <td nowrap><input id='critdmg'><input
                                     style='width: auto; vertical-align: middle; margin-left: 7px;' type="checkbox"
                                     id="compcrit" checked
@@ -168,62 +168,62 @@
                 </div>
             </div>
             <div id='calc2' style='display: inline-block; width: 340px;'>
-                <div style='text-align: center;'>2번 캐릭터</div>
+                <div style='text-align: center;'>XCharacter No.2 </div>
                 <div id='input'>
                     <table style='table-layout:fixed;'>
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>공격력</td>
+                            <td nowrap>Attack</td>
                             <td><input id='atk' value='0'></td>
                         </tr>
                         <tr>
-                            <td nowrap>추가피해</td>
+                            <td nowrap>Additional Damage</td>
                             <td><input id='add' value='0'></td>
                         </tr>
                         <tr>
-                            <td nowrap>공격력 제한 해제</td>
+                            <td nowrap>Attack Limit Removal</td>
                             <td><input id='alr' value='0'></td>
                         </tr>
                         <tr>
-                            <td nowrap>밸런스</td>
+                            <td nowrap>Balance</td>
                             <td><input id='bal' value='90'></td>
                         </tr>
                         <tr>
-                            <td nowrap>크리티컬</td>
+                            <td nowrap>Crit</td>
                             <td><input id='cri' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap colspan="2" style="text-align: center;">
-                                <label for='swordl2'>검시타</label><input
+                                <label for='swordl2'>Sword Lann</label><input
                                     style='width: auto; vertical-align: middle; margin-left: 3px;' type="checkbox"
                                     id="swordl2"
                                     onchange="if(this.checked)document.querySelector('#spearl2').checked = false;">
                                 &nbsp;&nbsp;
-                                <label for='spearl2'>창시타</label><input
+                                <label for='spearl2'>Spear Lann</label><input
                                     style='width: auto; vertical-align: middle; margin-left: 3px;' type="checkbox"
                                     id="spearl2"
                                     onchange="if(this.checked)document.querySelector('#swordl2').checked = false;">
                             </td>
                         </tr>
                         <tr>
-                            <td nowrap>대항력</td>
+                            <td nowrap>CF</td>
                             <td><input id='dongsuk' value='200'></td>
                         </tr>
                     </table>
                     <hr>
-                    <button style='width: 324px;' onclick='exec(2);'>2번 캐릭터 전투력 계산</button>
+                    <button style='width: 324px;' onclick='exec(2);'>Character No. 2 Combat Power Calculation</button>
                 </div>
                 <div id='output'>
                     <table style='table-layout:fixed;'>
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>유효 전투력 (크리 미포함)</td>
+                            <td nowrap>Effective Combat power (without Crit)</td>
                             <td><input id='nocritdmg'></td>
                         </tr>
                         <tr>
-                            <td nowrap>유효 전투력 (크리 포함)</td>
+                            <td nowrap>Effective Combat Power (including Crit)</td>
                             <td><input id='critdmg'></td>
                         </tr>
                     </table>
@@ -234,7 +234,7 @@
         <div id='footer'
             style='width: fit-content; margin: 0 auto; text-size-adjust:none; font-weight: bold; text-align: center;'>
             ↑&nbsp;&nbsp;&nbsp;&nbsp;<br />
-            아래 보정기를 사용하려면 우선 기준으로 삼을 전투력을 선택해주세요.
+            To use the following calculator, select the counterforce that you want to use as a priority.
         </div>
         <hr>
         <hr>
