@@ -258,7 +258,7 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>DMG  meter before adjusting</td>
+                            <td nowrap>DMG meter before adjusting</td>
                             <td nowrap><input id='deal1' value='50'>%</td>
                         </tr>
                     </table>
@@ -268,7 +268,7 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>보정 전 미터기 딜량</td>
+                            <td nowrap>DMG meter before adjusting</td>
                             <td nowrap><input id='deal2' value='50'>%</td>
                         </tr>
                     </table>
