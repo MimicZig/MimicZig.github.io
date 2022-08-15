@@ -106,7 +106,7 @@ input {
                 </tr>
                 <tr class='customstat' style='display: none;'>
                     <td nowrap>10 = minimum 10% even when cf is lower</td>
-                    <td><input id='bossdongsukmindmg' value='100'></td>
+                    <td><input id='bossdongsukmindmg' value='30'></td>
                 </tr>
             </table>
             <hr>
