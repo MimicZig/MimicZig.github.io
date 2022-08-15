@@ -51,7 +51,7 @@
                 <col width="200px" />
                 <col width="120px" />
                 <tr>
-                    <td nowrap>대상 (보스)</td>
+                    <td nowrap>Target (Boss)</td>
                     <td>
                         <select id="boss"
                             onchange="if(this.value == 'custom') {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='';});} else {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='none';});}">
@@ -89,40 +89,40 @@
                     <td><input id='bossres' value='0'></td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
-                    <td nowrap>보스 대항력 저항(0 = 대항력 미적용)</td>
+                    <td nowrap>Boss Res(0 = CF not applied)</td>
                     <td><input id='bossdongsukres' value='0'></td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
-                    <td nowrap>대항력 보정 최소치(10 = 대항력이 낮아도 최소 10%의 데미지 적용)</td>
+                    <td nowrap>Counterforce correction minimum(10 = 10 = Minimum 10% even when cf is lower)</td>
                     <td><input id='bossdongsukmindmg' value='100'></td>
                 </tr>
             </table>
             <hr>
             <hr>
             <div id='calc1' style='display: inline-block; width: 340px;'>
-                <div style='text-align: center;'>1번 캐릭터</div>
+                <div style='text-align: center;'>Character No. 1</div>
                 <div id='input'>
                     <table style='table-layout:fixed;'>
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>공격력</td>
+                            <td nowrap>Damage</td>
                             <td><input id='atk' value='0'></td>
                         </tr>
                         <tr>
-                            <td nowrap>추가피해</td>
+                            <td nowrap>Additional Damage</td>
                             <td><input id='add' value='0'></td>
                         </tr>
                         <tr>
-                            <td nowrap>공격력 제한 해제</td>
+                            <td nowrap>Attack Limit Removal</td>
                             <td><input id='alr' value='0'></td>
                         </tr>
                         <tr>
-                            <td nowrap>밸런스</td>
+                            <td nowrap>Balance</td>
                             <td><input id='bal' value='90'></td>
                         </tr>
                         <tr>
-                            <td nowrap>크리티컬</td>
+                            <td nowrap>Crit</td>
                             <td><input id='cri' value='0'></td>
                         </tr>
                         <tr>
@@ -139,7 +139,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td nowrap>대항력</td>
+                            <td nowrap>CF</td>
                             <td><input id='dongsuk' value='200'></td>
                         </tr>
                     </table>
