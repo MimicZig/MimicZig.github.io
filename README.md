@@ -250,9 +250,9 @@ input {
         </div>
         <hr>
         <div id='footer'
-            style='width: fit-content; margin: 0 auto; text-size-adjust:none; font-weight: bold; text-align: center; font-size: 16px;'>
-            
-            To use the calculator below make sure you calculate the effective damage.
+            style='width: fit-content; margin: 0 auto; text-size-adjust:none; font-weight: bold; text-align: center;'>
+            ↑&nbsp;&nbsp;&nbsp;&nbsp;<br />
+            To use the following calculator, select the counterforce that you want to use as a priority.
         </div>
         <hr>
         <hr>
