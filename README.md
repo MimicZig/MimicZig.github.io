@@ -258,7 +258,7 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>DMG meter before adjusting</td>
+                            <td nowrap>DMG meter before adjustment</td>
                             <td nowrap><input id='deal1' value='50'>%</td>
                         </tr>
                     </table>
@@ -268,13 +268,13 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>DMG meter before adjusting</td>
+                            <td nowrap>DMG meter before adjustment</td>
                             <td nowrap><input id='deal2' value='50'>%</td>
                         </tr>
                     </table>
                 </div>
-                <button style='display: block; width: 100%;' onclick='compare();'>선택한 유효전투력 기준으로 동스펙 2인 플레이시 딜량
-                    보정해보기</button>
+                <button style='display: block; width: 100%;' onclick='compare();'>adjust dmg with chosen stat when playing as duo with
+                    same stat</button>
             </div>
             <div id='output'>
                 <div id='comp1' style='display: inline-block; width: 340px;'>
@@ -282,7 +282,7 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>보정 후 딜량</td>
+                            <td nowrap>DMG meter after adjustment</td>
                             <td nowrap><input id='deal1'>%</td>
                         </tr>
                     </table>
@@ -292,7 +292,7 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>보정 후 딜량</td>
+                            <td nowrap>DMG meter after adjustment</td>
                             <td nowrap><input id='deal2'>%</td>
                         </tr>
                     </table>
