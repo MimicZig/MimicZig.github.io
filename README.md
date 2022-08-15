@@ -244,10 +244,10 @@
         <hr>
         <div id='footer'
             style='width: fit-content; margin: 0 auto; text-size-adjust:none; font-weight: bold; font-size: 14px; '>
-            <span style="color:red">보</span>정기의 결과값은 항상 실제와는 다를 수 있으며, 참고용으로만 써주세요.<br />
-            <span style="color:red">대</span>부분의 경우 파티플과 솔플의 DPS가 다르므로 솔플 클탐은 재미로만 봐주세요.<br />
-            <span style="color:red">또</span>한, 리시타나 블래스터 카록의 경우 크리티컬 확률 수치에 따른 데미지 효율이<br />
-            타 캐릭과는 다르게 적용되기 때문에 동스펙 비교 기능이 의미없을 수 있습니다.<br />
+            <span style="color:red">T</span>he result value of the calculator may always be different from the actual value, please use it for reference only.<br />
+            <span style="color:red">M</span>ost case party and solo dps is different so please look at solo clear time for fun.<br />
+            <span style="color:red">A</span>lso, Lann and cestus has different damage calculation with critical rate<br />
+            Than other characters so same stat comparison can be meaningless.<br />
         </div>
         <hr>
         <hr>
