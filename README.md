@@ -262,10 +262,10 @@ input {
         <hr>
         <div id='footer'
             style='width: fit-content; margin: 0 auto; text-size-adjust:none; font-weight: bold; text-align: center; font-size: 16px;  '>
-            The results of this calculator is an estimation.			<br />
-            But it is the best that we can do given the differences in gear.
+            The result value of the calibrator may always be different from the actual value, please use it for reference only.<br />
+            Most case party and solo dps is different so please look at solo clear time for fun
             <br />
-            For the cases of critical being modififed like Lann and Karok the comparison with Critical is wasted.
+           laan and cestus has differnt damage calculation with critical rate than other characters so same stat comparison can be meaningless
             <br />
   
         </div>
