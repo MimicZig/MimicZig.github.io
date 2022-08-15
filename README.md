@@ -144,7 +144,7 @@
                         </tr>
                     </table>
                     <hr>
-                    <button style='width: 324px;' onclick='exec(1);'>Character No.1 Combat Power Calculation</button>
+                    <button style='width: 324px;' onclick='exec(1);'>Character No. 1 Combat Power Calculation</button>
                 </div>
                 <div id='output'>
                     <table style='table-layout:fixed;'>
@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div id='calc2' style='display: inline-block; width: 340px;'>
-                <div style='text-align: center;'>Character No.2 </div>
+                <div style='text-align: center;'>Character No. 2 </div>
                 <div id='input'>
                     <table style='table-layout:fixed;'>
                         <col width="200px" />
