@@ -238,8 +238,8 @@
         </div>
         <hr>
         <hr>
-        <div id='appendix' style='text-align: center; font-size: 22px; font-weight: bold;'>마영전 데미지 보정기 <span
-                style="color:red">(only 참고용)</span></div>
+        <div id='appendix' style='text-align: center; font-size: 22px; font-weight: bold;'>Vindictus Damage Corrector <span
+                style="color:red">(only for reference)</span></div>
         <hr>
         <hr>
         <div id='footer'
@@ -258,7 +258,7 @@
                         <col width="200px" />
                         <col width="120px" />
                         <tr>
-                            <td nowrap>보정 전 미터기 딜량</td>
+                            <td nowrap>DMG  meter before adjusting</td>
                             <td nowrap><input id='deal1' value='50'>%</td>
                         </tr>
                     </table>
