@@ -87,7 +87,7 @@ input {
                             <option label="Brigid" value="brigit"></option>
                             <option label="[Hell] Redeemer" value="hell"></option>
                             <option label="Nyle" value="nyle"></option>
-                            <option label="Siethe" value="siethe"></option>
+                            <option label="Rag" value="siethe"></option>
                             <option label="Custom" value="custom"></option>
                         </select>
                     </td>
