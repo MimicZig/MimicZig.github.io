@@ -60,8 +60,8 @@ input {
         <hr>
         <div id='calc' style='width: 800px; margin: 0; padding: 0;'>
             <table style='table-layout:fixed; margin: 0 auto;'>
-                <col width="1px" />
-                <col width="0px" />
+                <col width="200px" />
+                <col width="120px" />
                 <tr>
                     <td nowrap>Select Boss</td>
                     <td>
