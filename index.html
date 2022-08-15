@@ -119,23 +119,23 @@ input {
                         <col width="120px" />
                         <tr>
                             <td nowrap>Attack</td>
-                            <td><input id='atk' value='50000'></td>
+                            <td><input id='atk' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>Additional Damage</td>
-                            <td><input id='add' value='6000'></td>
+                            <td><input id='add' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>ATT Limit</td>
-                            <td><input id='alr' value='3550'></td>
+                            <td><input id='alr' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>Balance</td>
-                            <td><input id='bal' value='90'></td>
+                            <td><input id='bal' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>Critical</td>
-                            <td><input id='cri' value='220'></td>
+                            <td><input id='cri' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap colspan="2" style="text-align: center;">
@@ -152,7 +152,7 @@ input {
                         </tr>
                         <tr>
                             <td nowrap>Counterforce</td>
-                            <td><input id='dongsuk' value='200'></td>
+                            <td><input id='dongsuk' value='0'></td>
                         </tr>
                     </table>
                     <hr>
@@ -193,23 +193,23 @@ input {
                         <col width="120px" />
                         <tr>
                             <td nowrap>Attack</td>
-                            <td><input id='atk' value='50000'></td>
+                            <td><input id='atk' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>Additional DMG</td>
-                            <td><input id='add' value='6000'></td>
+                            <td><input id='add' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>ATT Limit</td>
-                            <td><input id='alr' value='3550'></td>
+                            <td><input id='alr' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>Balance</td>
-                            <td><input id='bal' value='90'></td>
+                            <td><input id='bal' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap>Critical</td>
-                            <td><input id='cri' value='220'></td>
+                            <td><input id='cri' value='0'></td>
                         </tr>
                         <tr>
                             <td nowrap colspan="2" style="text-align: center;">
@@ -226,7 +226,7 @@ input {
                         </tr>
                         <tr>
                             <td nowrap>Counterforce</td>
-                            <td><input id='dongsuk' value='200'></td>
+                            <td><input id='dongsuk' value='0'></td>
                         </tr>
                     </table>
                     <hr>
@@ -279,7 +279,7 @@ input {
                         <col width="120px" />
                         <tr>
                             <td nowrap>DMG meter before adjustment</td>
-                            <td nowrap><input id='deal1' value='50'> %</td>
+                            <td nowrap><input id='deal1' value='0'> %</td>
                         </tr>
                     </table>
                 </div>
@@ -289,7 +289,7 @@ input {
                         <col width="120px" />
                         <tr>
                             <td nowrap>DMG meter before adjustment</td>
-                            <td nowrap><input id='deal2' value='50'> %</td>
+                            <td nowrap><input id='deal2' value='0'> %</td>
                         </tr>
                     </table>
                 </div>
@@ -327,11 +327,11 @@ input {
                         <col width="120px" />
                         <tr>
                             <td nowrap>Time</td>
-                            <td nowrap><input id='min1' value='30'>Minutes <input id='sec1' value='00'>Seconds</td>
+                            <td nowrap><input id='min1' value='0'>Minutes <input id='sec1' value='0'>Seconds</td>
                         </tr>
                         <tr>
                             <td nowrap>DMG meter before adjustment</td>
-                            <td nowrap><input id='timedeal1' value='100'>%</td>
+                            <td nowrap><input id='timedeal1' value='0'>%</td>
                         </tr>
                     </table>
                     <button style='display: block; width: 100%;' onclick='timecalc(1);'>Calculate Damage With (6000 AD, 3550 ALR)</button>
@@ -342,11 +342,11 @@ input {
                         <col width="120px" />
                         <tr>
                             <td nowrap>Time</td>
-                            <td nowrap><input id='min2' value='30'>Minutes <input id='sec2' value='00'>Seconds</td>
+                            <td nowrap><input id='min2' value='0'>Minutes <input id='sec2' value='0'>Seconds</td>
                         </tr>
                         <tr>
                             <td nowrap>DMG meter before adjustment</td>
-                            <td nowrap><input id='timedeal2' value='100'>%</td>
+                            <td nowrap><input id='timedeal2' value='0'>%</td>
                         </tr>
                     </table>
                     <button style='display: block; width: 100%;' onclick='timecalc(2);'>Calcuate Damage with (6000 AD, 3550 ALR)</button>
