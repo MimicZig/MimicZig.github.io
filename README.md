@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <title>마영전 데미지 계산기</title>
+    <title>Vindictus Damage Calculator</title>
     <meta name="viewport" content="width=650">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -44,7 +43,7 @@
 <body>
     <div class='container' style='width: fit-content;'>
         <hr>
-        <div id='header' style='text-align: center; font-size: 30px; font-weight: bold;'>마영전 데미지 계산기</div>
+        <div id='header' style='text-align: center; font-size: 30px; font-weight: bold;'>Vindictus Damage Calculator</div>
         <hr>
         <hr>
         <div id='calc' style='width: 690px; margin: 0; padding: 0;'>
@@ -56,37 +55,37 @@
                     <td>
                         <select id="boss"
                             onchange="if(this.value == 'custom') {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='';});} else {document.querySelectorAll('.customstat').forEach(function(x){x.style.display='none';});}">
-                            <option label="6종" value="lvl90raids"></option>
-                            <option label="듀라한" value="dullahan"></option>
-                            <option label="에스 시더" value="aessidhe"></option>
-                            <option label="아르카나" value="arcana"></option>
-                            <option label="루파키투스" value="rupacitus"></option>
-                            <option label="클레르" value="claire"></option>
-                            <option label="폭주한 엘쿨루스" value="elchulus"></option>
-                            <option label="마하" value="macha"></option>
-                            <option label="아가레스" value="agares"></option>
-                            <option label="루(팔라라)" value="lugh"></option>
-                            <option label="셀렌" value="selren"></option>
-                            <option label="마르젝트" value="marject"></option>
-                            <option label="아이단" value="aodhan"></option>
-                            <option label="세자르" value="caesar"></option>
-                            <option label="네베레스" value="nextboss1"></option>
-                            <option label="라그나힘" value="nextboss2"></option>
-                            <option label="스페셜 던전" value="special"></option>
-                            <option label="네반" value="neamhain"></option>
-                            <option label="발로르" value="balor" selected></option>
-                            <option label="브리지트" value="brigit"></option>
-                            <option label="[헬] 결사대" value="hell"></option>
-                            <option label="사용자 지정" value="custom"></option>
+                            <option label="90Raids" value="lvl90raids"></option>
+                            <option label="Dullahan" value="dullahan"></option>
+                            <option label="Aes" value="aessidhe"></option>
+                            <option label="Arcana" value="arcana"></option>
+                            <option label="Rupacitus" value="rupacitus"></option>
+                            <option label="Claire" value="claire"></option>
+                            <option label="Elchulus" value="elchulus"></option>
+                            <option label="Macha" value="macha"></option>
+                            <option label="Agares" value="agares"></option>
+                            <option label="Lugh" value="lugh"></option>
+                            <option label="Selren" value="selren"></option>
+                            <option label="Marject" value="marject"></option>
+                            <option label="Aodhan" value="aodhan"></option>
+                            <option label="Caesar" value="caesar"></option>
+                            <option label="Nyle" value="nextboss1"></option>
+                            <option label="Rag" value="nextboss2"></option>
+                            <option label="Special" value="special"></option>
+                            <option label="Neam" value="neamhain"></option>
+                            <option label="Balor" value="balor" selected></option>
+                            <option label="Brigit" value="brigit"></option>
+                            <option label="Hell" value="hell"></option>
+                            <option label="Custom" value="custom"></option>
                         </select>
                     </td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
-                    <td nowrap>보스 방어력</td>
+                    <td nowrap>Boss Def</td>
                     <td><input id='bossdef' value='0'></td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
-                    <td nowrap>보스 크리티컬 저항</td>
+                    <td nowrap>Boss Crit Res</td>
                     <td><input id='bossres' value='0'></td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
