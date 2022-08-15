@@ -105,7 +105,7 @@ input {
                     <td><input id='bossdongsukres' value='0'></td>
                 </tr>
                 <tr class='customstat' style='display: none;'>
-                    <td nowrap>Minimum Damage CF Outdated</td>
+                    <td nowrap>10 = minimum 10% even when cf is lower</td>
                     <td><input id='bossdongsukmindmg' value='100'></td>
                 </tr>
             </table>
