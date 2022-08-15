@@ -256,7 +256,7 @@ input {
         </div>
         <hr>
         <hr>
-        <div id='appendix' style='text-align: center; font-size: 35px; font-weight: bold;'>Scaled Damage Calculator <span
+        <div id='appendix' style='text-align: center; font-size: 35px; font-weight: bold;'>Vindictus Damage Calculator <span
                 style="color:red">(Damage is an estimate)</span></div>
         <hr>
         <hr>
