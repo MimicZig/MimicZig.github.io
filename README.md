@@ -330,7 +330,7 @@ input {
                             <td nowrap><input id='min1' value='30'>Minutes <input id='sec1' value='00'>Seconds</td>
                         </tr>
                         <tr>
-                            <td nowrap>DMG meter before adjustmentDamage Done</td>
+                            <td nowrap>DMG meter before adjustment</td>
                             <td nowrap><input id='timedeal1' value='100'>%</td>
                         </tr>
                     </table>
